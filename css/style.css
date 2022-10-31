@@ -1,0 +1,124 @@
+/*header,footer*/
+ .logo{
+   color: white;
+   font-size: 35px;
+   line-height: 60px;
+   padding: 0 100px;
+   padding-left: 20px;
+   font-family:'EB Garamond', serif;
+   border-radius: 3px;
+   text-decoration: none;
+ }
+ .logo a{
+   color: white;
+   font-size: 35px;
+   line-height: 60px;
+   padding: 0 100px;
+   padding-left: 20px;
+   font-family:'EB Garamond', serif;
+   border-radius: 3px;
+   text-decoration: none;
+ }
+ footer{
+   background-color: #b38f0e;
+   position: fixed;
+   bottom: 0;
+   height: 60px;
+   width: 100%;
+ }
+ .footer-content{
+   font-size: 15px;
+   padding-top: 15px;
+   text-align: center;
+   font-family: 'EB Garamond', serif;
+   color: white;
+ }
+ nav{
+    background: #2a73f1;
+    height: 60px;
+    width: 100%;
+ }
+  
+ /*text*/
+ .title {
+   font-family:'EB Garamond', serif;
+   font-size: 1.5em;
+   font-weight: bold;
+   padding-top: 150px;
+   padding-left: 100px;
+   padding-right: 100px;
+ }
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+ }
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+ }
+ a:hover{
+    background-color: white;
+    border-radius: 3px;
+    color: black;
+ }
+  
+ h2{
+   font-family: 'EB Garamond', serif;
+   color:#000000; 
+   text-shadow: #C3C9C6;
+ }
+ h6{
+  font-family: 'EB Garamond', serif;
+  font-size: 23px;
+  color: #adc417;
+ }
+ .link{
+   color: white
+ }
+ *,
+ *:before,
+ *:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .description{
+   font-size: 20px;
+   width: 50%;
+   padding-top: 50px;
+   
+   padding-right: 30px;
+   margin-left: 30px;
+ }
+ .resources{
+   font-size: 15px;
+   width: 80%;
+   padding-left: 300px;
+   padding-top: 20px;
+ }
+ strong{
+   font-weight: 900;
+ }
+ .link2{
+   color:#000;
+ }
+ .follow{
+   font-family: 'EB Garamond', serif;
+   color: black; 
+   font-size: 18px;
+ }
+
+
+  
+
+ 
