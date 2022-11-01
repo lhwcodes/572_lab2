@@ -98,7 +98,7 @@
    font-size: 25px;
    width: 100%;
    padding-top: 10px;
-   font-weight: 100;
+   font-weight: bold;
    padding-right: 100px;
    padding-left: 100px;
  }
@@ -173,6 +173,16 @@ body {
   font-family: 'EB Garamond', serif;
   color: black; 
   font-size: 20px;
+}
+.artist-statement-alt{
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: 'EB Garamond', serif !important;
+  color: black; 
+  font-size: 20px;
+  font-weight: bold !important;
 }
 
 .col-md-7-col-sm-12-col-12{
