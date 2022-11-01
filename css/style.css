@@ -20,7 +20,7 @@
    text-decoration: none;
  }
  footer{
-   background-color: #b38f0e;
+   background-color: #2a73f1;
    position: fixed;
    bottom: 0;
    height: 60px;
@@ -34,19 +34,22 @@
    color: white;
  }
  nav{
-    background: #2a73f1;
+    background: #b38f0e;
     height: 60px;
     width: 100%;
+    position: fixed;
  }
   
  /*text*/
  .title {
    font-family:'EB Garamond', serif;
    font-size: 1.5em;
-   font-weight: bold;
+   font-weight:bold;
    padding-top: 150px;
-   padding-left: 100px;
-   padding-right: 100px;
+   padding-left: 195px;
+   padding-right: 195px;
+   text-shadow: 20px #eeeded;
+  
  }
  nav ul{
     float: right;
@@ -64,6 +67,7 @@
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    font-family: 'EB Garamond', serif !important;
  }
  a:hover{
     background-color: white;
@@ -74,13 +78,11 @@
  h2{
    font-family: 'EB Garamond', serif;
    color:#000000; 
-   text-shadow: #C3C9C6;
+   font-size: 1.5em;
+   font-weight:bold;
+   
  }
- h6{
-  font-family: 'EB Garamond', serif;
-  font-size: 23px;
-  color: #adc417;
- }
+ 
  .link{
    color: white
  }
@@ -93,12 +95,12 @@
  }
 
  .description{
-   font-size: 20px;
-   width: 50%;
-   padding-top: 50px;
-   
-   padding-right: 30px;
-   margin-left: 30px;
+   font-size: 25px;
+   width: 100%;
+   padding-top: 10px;
+   font-weight: 100;
+   padding-right: 100px;
+   padding-left: 100px;
  }
  .resources{
    font-size: 15px;
@@ -118,7 +120,62 @@
    font-size: 18px;
  }
 
+ body {
+  background: #eeeded;
+}
 
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color:#FFF;
+
+}
+
+.card:hover {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card > .card-inner {
+  padding:10px;
   
+}
+.card .header h2, h3 {
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+.card .header {
+  margin-bottom:5px;
+}
+.card img{
+  width:100%;
+}
+  
+body {
+  background-image: url('../topoBG.jpg') !important;
+  background-size: 200px;
+  
+}
 
+.project-item{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  width: 100%
+
+}
  
+.artist-statement{
+  float: right;
+  padding-top: 260px;
+  padding-left: 10px;
+  width: 40%;
+  font-family: 'EB Garamond', serif;
+  color: black; 
+  font-size: 20px;
+}
+
+.col-md-7-col-sm-12-col-12{
+  float: left;
+  width: 60%;
+}
