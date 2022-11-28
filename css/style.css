@@ -1,191 +1,192 @@
 /*header,footer*/
- .logo{
-   color: white;
-   font-size: 35px;
-   line-height: 60px;
-   padding: 0 100px;
-   padding-left: 20px;
-   font-family:'EB Garamond', serif;
-   border-radius: 3px;
-   text-decoration: none;
- }
- .logo a{
-   color: white;
-   font-size: 35px;
-   line-height: 60px;
-   padding: 0 100px;
-   padding-left: 20px;
-   font-family:'EB Garamond', serif;
-   border-radius: 3px;
-   text-decoration: none;
- }
- footer{
-   background-color: #2a73f1;
-   position: fixed;
-   bottom: 0;
-   height: 60px;
-   width: 100%;
- }
- .footer-content{
-   font-size: 15px;
-   padding-top: 15px;
-   text-align: center;
-   font-family: 'EB Garamond', serif;
-   color: white;
- }
- nav{
-    background: #b38f0e;
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 100px;
+    padding-left: 20px;
+    font-family:'EB Garamond', serif;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  .logo a{
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 100px;
+    padding-left: 20px;
+    font-family:'EB Garamond', serif;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  footer{
+    background-color: #2a73f1;
+    position: fixed;
+    bottom: 0;
     height: 60px;
     width: 100%;
-    position: fixed;
- }
-  
- /*text*/
- .title {
-   font-family:'EB Garamond', serif;
-   font-size: 1.5em;
-   font-weight:bold;
-   padding-top: 150px;
-   padding-left: 195px;
-   padding-right: 195px;
-   text-shadow: 20px #eeeded;
-  
- }
- nav ul{
-    float: right;
-    margin-right: 20px;
- }
- nav ul li{
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 5px;
- }
- nav ul li a{
+  }
+  .footer-content{
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
     color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: 'EB Garamond', serif !important;
- }
- a:hover{
-    background-color: white;
-    border-radius: 3px;
-    color: black;
- }
+  }
+  nav{
+     background: #b38f0e;
+     height: 60px;
+     width: 100%;
+     position: fixed;
+  }
+   
+  /*text*/
+  .title {
+    font-family:'EB Garamond', serif;
+    font-size: 1.5em;
+    font-weight:bold;
+    padding-top: 150px;
+    padding-left: 195px;
+    padding-right: 195px;
+    text-shadow: 20px #eeeded;
+   
+  }
+  nav ul{
+     float: right;
+     margin-right: 20px;
+  }
+  nav ul li{
+     display: inline-block;
+     line-height: 60px;
+     margin: 0 5px;
+  }
+  nav ul li a{
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+     padding: 7px 13px;
+     border-radius: 3px;
+     text-transform: uppercase;
+     font-family: 'EB Garamond', serif !important;
+  }
+  a:hover{
+     background-color: white;
+     border-radius: 3px;
+     color: black;
+  }
+   
+  h2{
+    font-family: 'EB Garamond', serif;
+    color:#000000; 
+    font-size: 1.5em;
+    font-weight:bold;
+    
+  }
   
- h2{
-   font-family: 'EB Garamond', serif;
-   color:#000000; 
-   font-size: 1.5em;
-   font-weight:bold;
+  .link{
+    color: white
+  }
+  *,
+  *:before,
+  *:after{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+  }
+ 
+  .description{
+    font-size: 25px;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .resources{
+    font-size: 15px;
+    width: 80%;
+    padding-left: 300px;
+    padding-top: 20px;
+  }
+  strong{
+    font-weight: 900;
+  }
+  .link2{
+    color:#000;
+  }
+  .follow{
+    font-family: 'EB Garamond', serif;
+    color: black; 
+    font-size: 18px;
+  }
+ 
+
+ 
+ .card {
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   transition: all 0.2s ease-in-out;
+   box-sizing: border-box;
+   margin-top:10px;
+   margin-bottom:10px;
+   background-color:#FFF;
+ 
+ }
+ 
+ .card:hover {
+   box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ }
+ .card > .card-inner {
+   padding:10px;
+   
+ }
+ .card .header h2, h3 {
+   margin-bottom: 0px;
+   margin-top:0px;
+ }
+ .card .header {
+   margin-bottom:5px;
+ }
+ .card img{
+   width:100%;
+ }
+   
+ body {
+   background-image: url('../topoBG.jpg') !important;
+   background-size: 200px;
    
  }
  
- .link{
-   color: white
+ .project-item{
+   padding-top: 60px;
+   padding-bottom: 30px;
+   width: 100%
+ 
  }
- *,
- *:before,
- *:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
-
- .description{
-   font-size: 25px;
-   width: 100%;
-   padding-top: 10px;
-   font-weight: bold;
-   padding-right: 100px;
-   padding-left: 100px;
- }
- .resources{
-   font-size: 15px;
-   width: 80%;
-   padding-left: 300px;
-   padding-top: 20px;
- }
- strong{
-   font-weight: 900;
- }
- .link2{
-   color:#000;
- }
- .follow{
+  
+ .artist-statement{
+   float: right;
+   padding-top: 260px;
+   padding-left: 10px;
+   width: 40%;
    font-family: 'EB Garamond', serif;
    color: black; 
-   font-size: 18px;
+   font-size: 20px;
  }
-
- body {
-  background: #eeeded;
-}
-
-.card {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.2s ease-in-out;
-  box-sizing: border-box;
-  margin-top:10px;
-  margin-bottom:10px;
-  background-color:#FFF;
-
-}
-
-.card:hover {
-  box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-.card > .card-inner {
-  padding:10px;
-  
-}
-.card .header h2, h3 {
-  margin-bottom: 0px;
-  margin-top:0px;
-}
-.card .header {
-  margin-bottom:5px;
-}
-.card img{
-  width:100%;
-}
-  
-body {
-  background-image: url('../topoBG.jpg') !important;
-  background-size: 200px;
-  
-}
-
-.project-item{
-  padding-top: 60px;
-  padding-bottom: 30px;
-  width: 100%
-
-}
+ .artist-statement-alt{
+   width: 100%;
+   padding-top: 10px;
+   padding-right: 100px;
+   padding-left: 100px;
+   font-family: 'EB Garamond', serif !important;
+   color: black; 
+   font-size: 20px;
+   font-weight: bold !important;
+ }
  
-.artist-statement{
-  float: right;
-  padding-top: 260px;
-  padding-left: 10px;
-  width: 40%;
-  font-family: 'EB Garamond', serif;
-  color: black; 
-  font-size: 20px;
-}
-.artist-statement-alt{
-  width: 100%;
-  padding-top: 10px;
-  padding-right: 100px;
-  padding-left: 100px;
-  font-family: 'EB Garamond', serif !important;
-  color: black; 
-  font-size: 20px;
-  font-weight: bold !important;
-}
-
-.col-md-7-col-sm-12-col-12{
-  float: left;
-  width: 60%;
-}
+ .col-md-7-col-sm-12-col-12{
+   float: left;
+   width: 60%;
+ }
+ p{
+     font-size:20px;
+ }

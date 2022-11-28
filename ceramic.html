@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Base Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    
+    <link rel="stylesheet" href="./lib/scrollmap.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Niconne&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <nav>
+        <label class="logo"><a href="home.html">Lukas Wellenstein</a></label>
+        <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="works.html">My Work</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <!--title block, background image is title image-->
+        <div class="row" style="background-image:url(img/basemap_first.JPG)">
+            <div class="center title">
+                <!--title text-->
+                <center><h1>Wood Fired</h1></center>
+                <!--subtitle or author-->
+                <p class="author">Lukas Wellenstein</p>
+            </div>
+        </div>
+        <!--text block-->
+        <div class="row">
+            <div class="center">
+                <p>My style is called <b>Wood Fired</b> and is based on Japanese ceramics.</p>
+            </div>
+        </div>
+        <!--image block-->
+        <div class="row">
+            <div class="center">
+                <p>I drew inspiration from wood and raku fired pottery.</p>
+                <img class="fit" src="img/572_inspiration8.jpg">
+                <img class="fit" src="img/inspotry1.JPG">
+                <img class="fit" src="img/572_inspiration9.jpg">
+            </div>
+        </div>
+        <!--side-by-side image and text block-->
+        <div class="row">
+            <div class="left">
+                <p class="vert-center">In the map, Teapots represent states and tea cups represent the cities.</p>
+            </div>
+            <div class="right">
+                <img class="fit" src="img/pot_cup_snip.JPG">
+            </div>
+        </div>
+        <!--bootstrap carousel, centered-->
+        <div class="row">
+            <div class="center-wide">
+                <p>The map "decays" as you zoom in.</p>
+                <!--slideshow of images, also known as a carousel-->
+                <!--remove "carousel-dark" if you want a lighter version of the carousel-->
+                <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <!--indicator buttons at the bottom of the carousel that show the total number of slides-->
+                    <div class="carousel-indicators">
+                        <!--there should be as many of these buttons as there are slides in your carousel-->
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <!-- <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button> -->
+                    </div>
+                    <!--images in the carousel-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/slideshow1.png" class="fill" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slideshow2.png" class="fill" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slideshow3.png" class="fill" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slideshow4.png" class="fit" alt="...">
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <img src="img/slideshow4.png" class="fit" alt="...">
+                        </div> -->
+                    </div>
+                    <!--previous/next buttons that allow users to click from one slide to the next-->
+                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--background images with text scrolling over them-->
+        <div class="scroll-container">    
+            <!--background images-->
+            <div class="background-item">
+                <!--data-slide property used to specify when the background should first-->
+                <img src="img/title_image.PNG" data-slide="0" class="fit vert-center">
+                <img src="img/glacierNP.PNG" data-slide="1" class="fit vert-center hidden">
+                <img src="img/congo_zoom.PNG" data-slide="2" class="fitvert-center hidden">
+                <img src="img/ozarks_zoom.PNG" data-slide="3" class="fit vert-center hidden">
+            </div>
+            <!--foreground text blocks-->
+            <div class="foreground-item no-event">
+                <div class="row">
+                    <div class="center background-transparent rounded">
+                        <p class="no-margin">Take a look at a few different geographies, starting with Madison, Wisconsin.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left background-transparent rounded">
+                        <p class="no-margin">The tip of Manhattan in New York City looks very decayed!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center background-transparent rounded">
+                        <p class="no-margin">Yellowstone National Park.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left background-transparent rounded">
+                        <p class="no-margin">Hobart, Tasmania.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mapbox iframe-->
+        <div class="row sm-margin">
+            <div class="center-wide">
+                <p>Play around the full map.</p>
+                <iframe height = "650" src="https://api.mapbox.com/styles/v1/lhwellenstei/cla7d1yv8001a14o0v8byemw8.html?title=view&access_token=pk.eyJ1IjoibGh3ZWxsZW5zdGVpIiwiYSI6ImNsYTFqZWlhbzA0MWszcnVybzd6MG5hM20ifQ.4YQsTOnfxRESi_3xlJ-npQ&zoomwheel=true&fresh=true#8.51/40.7572/-107.7358" class="fit" ></iframe>
+            </div>
+        </div>
+        <!--text block-->
+        <div class="row no-margin">
+            <div class="center">
+                <div class="credits">
+                    <hr>
+                    <p><b>Credits:</b></p>
+                    <p>Map created with Mapbox Studio</p>
+                    <p>Data from openstreetmap</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script type="text/javascript" src="./lib/scrollmap.js"></script>
+<script type="text/javascript" src="./lib/bootstrap.min.js"></script>
+
+</body>
+</html>
