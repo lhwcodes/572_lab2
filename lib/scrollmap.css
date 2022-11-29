@@ -47,8 +47,8 @@ body{
 }
 .title h1{
     font-size:100px;
-    text-shadow: whitesmoke, 5px;
-    ;
+    color: white;
+    text-shadow: 5px 5px black;
 }
 
 /*bottom margin styles*/
@@ -204,4 +204,9 @@ body{
 }
 #next-button:hover, #prev-button:hover{
     background:rgba(0,0,0,0.2)
+}
+.author{
+    font-size:25px;
+    color: black;
+    text-shadow: 1.5px 1.5px rgb(158, 154, 154);
 }
